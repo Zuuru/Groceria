@@ -104,6 +104,7 @@ export const ScrollReveal: React.FC<ScrollRevealProps> = ({
   }
 
   return (
+    // @ts-ignore — union type too complex for polymorphic JSX element
     <Component
       ref={ref as any}
       style={style}
