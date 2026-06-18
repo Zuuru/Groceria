@@ -103,14 +103,9 @@ export const ScrollReveal: React.FC<ScrollRevealProps> = ({
     ...getRevealStyles(),
   }
 
-  return (
-    // @ts-ignore — union type too complex for polymorphic JSX element
-    <Component
-      ref={ref as any}
-      style={style}
-      className={className}
-    >
-      {children}
-    </Component>
+  return React.createElement(
+    Component,
+    { ref: ref as React.Ref<HTMLElement>, style, className },
+    children
   )
 }
