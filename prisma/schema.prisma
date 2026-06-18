@@ -1,0 +1,191 @@
+// prisma/schema.prisma
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  email         String    @unique
+  emailVerified DateTime?
+  password      String?
+  image         String?
+  role          String    @default("CUSTOMER") // CUSTOMER or ADMIN
+  phone         String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  accounts  Account[]
+  sessions  Session[]
+  addresses Address[]
+  orders    Order[]
+  reviews   Review[]
+  wishlist  Wishlist[]
+}
+
+// NextAuth models
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String?
+  access_token      String?
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String?
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Category {
+  id          String    @id @default(cuid())
+  name        String    @unique
+  slug        String    @unique
+  description String?
+  image       String?
+  createdAt   DateTime  @default(now())
+
+  products Product[]
+}
+
+model Product {
+  id          String   @id @default(cuid())
+  name        String
+  slug        String   @unique
+  description String
+  price       Float    // Using Float for SQLite
+  stock       Int      @default(0)
+  weight      Float?   // gram
+  images      String   // Storing JSON string or comma-separated URLs for simplicity in SQLite
+  isActive    Boolean  @default(true)
+  isFeatured  Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  categoryId  String
+  category    Category @relation(fields: [categoryId], references: [id])
+
+  nutrition   Nutrition?
+  reviews     Review[]
+  wishlist    Wishlist[]
+  orderItems  OrderItem[]
+}
+
+model Nutrition {
+  id          String  @id @default(cuid())
+  calories    Float   // kkal per serving
+  protein     Float   // gram
+  carbs       Float   // gram
+  fat         Float   // gram
+  fiber       Float?  // gram
+  sugar       Float?  // gram
+  sodium      Float?  // mg
+  servingSize String  // contoh: "100g" atau "1 porsi"
+
+  productId String  @unique
+  product   Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+}
+
+model Order {
+  id          String      @id @default(cuid())
+  orderNumber String      @unique @default(cuid())
+  status      String      @default("PENDING") // PENDING, PAID, PROCESSING, SHIPPED, DELIVERED, CANCELLED, REFUNDED
+  totalPrice  Float
+  shippingFee Float       @default(0)
+  notes       String?
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+
+  userId    String
+  user      User        @relation(fields: [userId], references: [id])
+  addressId String
+  address   Address     @relation(fields: [addressId], references: [id])
+  items     OrderItem[]
+  payment   Payment?
+}
+
+model OrderItem {
+  id        String  @id @default(cuid())
+  quantity  Int
+  price     Float
+
+  orderId   String
+  order     Order   @relation(fields: [orderId], references: [id], onDelete: Cascade)
+
+  productId String
+  product   Product @relation(fields: [productId], references: [id])
+}
+
+model Payment {
+  id            String        @id @default(cuid())
+  method        String        // BANK_TRANSFER, GOPAY, OVO, DANA, COD
+  status        String        @default("PENDING") // PENDING, PAID, FAILED, REFUNDED
+  amount        Float
+  transactionId String?
+  paidAt        DateTime?
+  createdAt     DateTime      @default(now())
+
+  orderId String @unique
+  order   Order  @relation(fields: [orderId], references: [id])
+}
+
+model Address {
+  id           String  @id @default(cuid())
+  label        String  // contoh: "Rumah", "Kantor"
+  recipientName String
+  phone        String
+  street       String
+  city         String
+  province     String
+  postalCode   String
+  isDefault    Boolean @default(false)
+
+  userId String
+  user   User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  orders Order[]
+}
+
+model Review {
+  id        String   @id @default(cuid())
+  rating    Int      // 1-5
+  comment   String?
+  createdAt DateTime @default(now())
+
+  userId    String
+  user      User    @relation(fields: [userId], references: [id])
+  productId String
+  product   Product @relation(fields: [productId], references: [id])
+
+  @@unique([userId, productId])
+}
+
+model Wishlist {
+  id        String   @id @default(cuid())
+  createdAt DateTime @default(now())
+
+  userId    String
+  user      User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  productId String
+  product   Product @relation(fields: [productId], references: [id])
+
+  @@unique([userId, productId])
+}

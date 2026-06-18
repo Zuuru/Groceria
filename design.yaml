@@ -1,0 +1,3237 @@
+metadata:
+  name: Untitled
+  components: {}
+  componentSets: {}
+nodes:
+  - id: '2021:135'
+    name: Html → Body
+    type: FRAME
+    layout: layout_V8LQBC
+    fills: color_FFFFFF
+    children:
+      - id: '2021:136'
+        name: Header - TopNavBar (Fixed)
+        type: FRAME
+        layout: layout_V5CY1X
+        fills: color_FBF9F4
+        children:
+          - id: '2021:137'
+            name: Nav
+            type: FRAME
+            layout: layout_E8EFMR
+            children:
+              - id: '2021:138'
+                name: Container
+                type: FRAME
+                layout: layout_K2H7AK
+                children:
+                  - id: '2021:139'
+                    name: Text
+                    type: TEXT
+                    layout: layout_338UVV
+                    fills: color_154212
+                    text: GROCERIA
+                    textStyle: style_JGP8BW
+              - id: '2021:140'
+                name: Container
+                type: FRAME
+                layout: layout_GRRS24
+                children:
+                  - id: '2021:141'
+                    name: Link
+                    type: FRAME
+                    layout: layout_HEZ9GR
+                    children:
+                      - id: '2021:142'
+                        name: Text
+                        type: TEXT
+                        layout: layout_4PINHP
+                        fills: color_42493E
+                        text: Shop
+                        textStyle: style_90OQ0H
+                  - id: '2021:143'
+                    name: Link:margin
+                    type: FRAME
+                    layout: layout_CINILF
+                    children:
+                      - id: '2021:144'
+                        name: Link → Reviews
+                        type: TEXT
+                        layout: layout_MLTNK9
+                        fills: color_42493E
+                        text: Reviews
+                        textStyle: style_WEFY06
+                  - id: '2021:145'
+                    name: Link:margin
+                    type: FRAME
+                    layout: layout_AKY7TX
+                    children:
+                      - id: '2021:146'
+                        name: Link → Orders
+                        type: TEXT
+                        layout: layout_X8P3QB
+                        fills: color_42493E
+                        text: Orders
+                        textStyle: style_0AZ8G9
+                  - id: '2021:147'
+                    name: Link:margin
+                    type: FRAME
+                    layout: layout_IHLO01
+                    children:
+                      - id: '2021:148'
+                        name: Link → Chat
+                        type: TEXT
+                        layout: layout_69AHUX
+                        fills: color_42493E
+                        text: Chat
+                        textStyle: style_TY8PG4
+              - id: '2021:149'
+                name: Container
+                type: FRAME
+                layout: layout_OSO1AY
+                children:
+                  - id: '2021:150'
+                    name: Button
+                    type: FRAME
+                    layout: layout_EV2Y79
+                    borderRadius: 9999px
+                    children:
+                      - id: '2021:151'
+                        name: Icon
+                        type: VECTOR
+                        layout: layout_ID5LPS
+                        fills: color_154212
+                  - id: '2021:152'
+                    name: Button:margin
+                    type: FRAME
+                    layout: layout_LJ3Q5B
+                    children:
+                      - id: '2021:153'
+                        name: Button
+                        type: FRAME
+                        layout: layout_L6ZOCC
+                        borderRadius: 9999px
+                        children:
+                          - id: '2021:154'
+                            name: Icon
+                            type: VECTOR
+                            layout: layout_96FWEF
+                            fills: color_154212
+      - id: '2021:155'
+        name: Main
+        type: FRAME
+        layout: layout_TYYF66
+        children:
+          - id: '2021:156'
+            name: 'Left Column: Order Details & Selection'
+            type: FRAME
+            layout: layout_R5WOAT
+            children:
+              - id: '2021:157'
+                name: 'Section: Address Selection'
+                type: FRAME
+                layout: layout_XPMY6N
+                fills: color_FFFFFF
+                strokes: stroke_C2C9BB
+                strokeWeight: 1px
+                borderRadius: 12px
+                children:
+                  - id: '2021:158'
+                    name: Container
+                    type: FRAME
+                    layout: layout_C7YBHA
+                    children:
+                      - id: '2021:159'
+                        name: Container
+                        type: FRAME
+                        layout: layout_FD6FZW
+                        children:
+                          - id: '2021:160'
+                            name: Container
+                            type: FRAME
+                            layout: layout_30JKQF
+                            children:
+                              - id: '2021:161'
+                                name: Icon
+                                type: VECTOR
+                                layout: layout_BKPJAB
+                                fills: color_154212
+                          - id: '2021:162'
+                            name: Heading 2
+                            type: FRAME
+                            layout: layout_SIZONS
+                            children:
+                              - id: '2021:163'
+                                name: Text
+                                type: TEXT
+                                layout: layout_VO2SU4
+                                fills: color_154212
+                                text: Alamat Pengiriman
+                                textStyle: style_1BWJXO
+                      - id: '2021:164'
+                        name: Button
+                        type: FRAME
+                        layout: layout_BW0ABW
+                        children:
+                          - id: '2021:165'
+                            name: Text
+                            type: TEXT
+                            layout: layout_YIVN84
+                            fills: color_154212
+                            text: Ubah Alamat
+                            textStyle: style_KBU331
+                  - id: '2021:166'
+                    name: Background+VerticalBorder
+                    type: FRAME
+                    layout: layout_W4BEYU
+                    fills: color_F5F3EE
+                    strokes: stroke_154212
+                    borderRadius: 8px
+                    children:
+                      - id: '2021:167'
+                        name: Container
+                        type: FRAME
+                        layout: layout_TJXQQ3
+                        children:
+                          - id: '2021:168'
+                            name: Container
+                            type: FRAME
+                            layout: layout_TCU6CE
+                            children:
+                              - id: '2021:169'
+                                name: Text
+                                type: TEXT
+                                layout: layout_8KVFYO
+                                fills: color_1B1C19
+                                text: Rumah (Utama)
+                                textStyle: style_9KFJHI
+                              - id: '2021:170'
+                                name: Container
+                                type: FRAME
+                                layout: layout_28GBRP
+                                children:
+                                  - id: '2021:171'
+                                    name: Text
+                                    type: TEXT
+                                    layout: layout_UICF29
+                                    fills: color_42493E
+                                    text: Budi Santoso • +62 812-3456-7890
+                                    textStyle: style_0M7XPP
+                              - id: '2021:172'
+                                name: Container
+                                type: FRAME
+                                layout: layout_5JK6OS
+                                children:
+                                  - id: '2021:173'
+                                    name: Text
+                                    type: TEXT
+                                    layout: layout_K0R92N
+                                    fills: color_42493E
+                                    text: Jl. Melati No. 45, Kebayoran Baru, Jakarta Selatan, DKI Jakarta 12150
+                                    textStyle: style_NXZOUX
+                          - id: '2021:174'
+                            name: Container
+                            type: FRAME
+                            layout: layout_GIHXTF
+                            children:
+                              - id: '2021:175'
+                                name: Icon
+                                type: VECTOR
+                                layout: layout_HG5I7G
+                                fills: color_154212
+              - id: '2021:176'
+                name: 'Section: Cart Items'
+                type: FRAME
+                layout: layout_TA33C2
+                fills: color_FFFFFF
+                strokes: stroke_C2C9BB
+                strokeWeight: 1px
+                borderRadius: 12px
+                children:
+                  - id: '2021:177'
+                    name: Container
+                    type: FRAME
+                    layout: layout_JT6YGY
+                    children:
+                      - id: '2021:178'
+                        name: Container
+                        type: FRAME
+                        layout: layout_ZE6U6N
+                        children:
+                          - id: '2021:179'
+                            name: Icon
+                            type: VECTOR
+                            layout: layout_BCF88L
+                            fills: color_154212
+                      - id: '2021:180'
+                        name: Heading 2
+                        type: FRAME
+                        layout: layout_IW3SJ7
+                        children:
+                          - id: '2021:181'
+                            name: Text
+                            type: TEXT
+                            layout: layout_DPLBJT
+                            fills: color_154212
+                            text: Keranjang Belanja
+                            textStyle: style_8ISCQX
+                  - id: '2021:182'
+                    name: Container
+                    type: FRAME
+                    layout: layout_DPGNI0
+                    children:
+                      - id: '2021:183'
+                        name: Item 1
+                        type: FRAME
+                        layout: layout_NCV73D
+                        strokes: stroke_C2C9BB
+                        children:
+                          - id: '2021:184'
+                            name: >-
+                              AB6AXuAxhyIFIqo1Kbcy_7eZOEqmyCbbEqbdegILl9-k2NP_q7TM3ulxnj7x1-oY3JR5K1DExPjcNkKZlPK2muopQHP3qVEsTovDPBT_NDknZtOpwXfPw95MvlbQ9poW96iJQpNf3gXMvCgAGa0PWv9Du6Q3Sd6R_tAioWgB9jamCx5en5lEKcPGUdF9JzQt6X_OUuStsEwccj8beT232-tV5qyUTbuCTpib56cMhry-IZ8EvtU-ibtCuABu-gxW0OdvL8FcIn6oI3ToCwF5
+                            type: FRAME
+                            layout: layout_G9080V
+                            fills: color_F0EEE9
+                            borderRadius: 8px
+                          - id: '2021:185'
+                            name: Container
+                            type: FRAME
+                            layout: layout_899N8R
+                            children:
+                              - id: '2021:186'
+                                name: Container
+                                type: FRAME
+                                layout: layout_JZQJU1
+                                children:
+                                  - id: '2021:187'
+                                    name: Heading 3
+                                    type: FRAME
+                                    layout: layout_6A7QHV
+                                    children:
+                                      - id: '2021:188'
+                                        name: Text
+                                        type: TEXT
+                                        layout: layout_KNRXEI
+                                        fills: color_1B1C19
+                                        text: Alpukat Mentega Organik
+                                        textStyle: style_OX807Y
+                                  - id: '2021:189'
+                                    name: Container
+                                    type: FRAME
+                                    layout: layout_WZGAJC
+                                    children:
+                                      - id: '2021:190'
+                                        name: Text
+                                        type: TEXT
+                                        layout: layout_O2SMFO
+                                        fills: color_154212
+                                        text: Rp 45.000
+                                        textStyle: style_Q925AD
+                              - id: '2021:191'
+                                name: Container
+                                type: FRAME
+                                layout: layout_PYBLJ1
+                                children:
+                                  - id: '2021:192'
+                                    name: 1kg (± 4-5 buah)
+                                    type: TEXT
+                                    layout: layout_5JIVSZ
+                                    fills: color_42493E
+                                    text: 1kg (± 4-5 buah)
+                                    textStyle: style_DZJ29R
+                              - id: '2021:193'
+                                name: Container
+                                type: FRAME
+                                layout: layout_006GBF
+                                children:
+                                  - id: '2021:194'
+                                    name: Border
+                                    type: FRAME
+                                    layout: layout_WIF38O
+                                    strokes: stroke_C2C9BB
+                                    strokeWeight: 1px
+                                    borderRadius: 9999px
+                                    children:
+                                      - id: '2021:195'
+                                        name: Button
+                                        type: FRAME
+                                        layout: layout_O4SVBD
+                                        children:
+                                          - id: '2021:196'
+                                            name: Icon
+                                            type: VECTOR
+                                            layout: layout_WCTA3F
+                                            fills: color_154212
+                                      - id: '2021:197'
+                                        name: Container
+                                        type: FRAME
+                                        layout: layout_YH28RF
+                                        children:
+                                          - id: '2021:198'
+                                            name: Text
+                                            type: TEXT
+                                            layout: layout_WY12LO
+                                            fills: color_1B1C19
+                                            text: '2'
+                                            textStyle: style_1KECSX
+                                      - id: '2021:199'
+                                        name: Button
+                                        type: FRAME
+                                        layout: layout_B4SI3M
+                                        children:
+                                          - id: '2021:200'
+                                            name: Icon
+                                            type: VECTOR
+                                            layout: layout_HSAACK
+                                            fills: color_154212
+                                  - id: '2021:201'
+                                    name: Button
+                                    type: FRAME
+                                    layout: layout_IPE8E4
+                                    children:
+                                      - id: '2021:202'
+                                        name: Text
+                                        type: TEXT
+                                        layout: layout_8ZQMUT
+                                        fills: color_BA1A1A
+                                        text: Hapus
+                                        textStyle: style_W0L76H
+                      - id: '2021:203'
+                        name: Item 2
+                        type: FRAME
+                        layout: layout_6L36NU
+                        strokes: stroke_C2C9BB
+                        children:
+                          - id: '2021:204'
+                            name: >-
+                              AB6AXuAe8_JJELeZO0caldfagAmAXGIBQ3TfTrYCU-QAZttHuE2lM8LIUSVKjYNaDZ4DxcaMzTkUTM0ft8MGth8GpkVLVo0od7qb0FY6BXiuAsn5wliCCWz7aFI2340JRRK0PVrqRcLjVGhCAJNbEpnNtMCg_XvUTezHgHwja00syTYyZomkwS4v1zikENOCXwc2m2qNsUdQFz5jEyyWhzc64oeF4xpYyI2a-5OCtwNxAqF43H0Hp2yR9MGyZdmEz23WjAjJQmGHc_7XGGvp
+                            type: FRAME
+                            layout: layout_WRYTXP
+                            fills: color_F0EEE9
+                            borderRadius: 8px
+                          - id: '2021:205'
+                            name: Container
+                            type: FRAME
+                            layout: layout_8TTR1W
+                            children:
+                              - id: '2021:206'
+                                name: Container
+                                type: FRAME
+                                layout: layout_XRFW2P
+                                children:
+                                  - id: '2021:207'
+                                    name: Heading 3
+                                    type: FRAME
+                                    layout: layout_S65H4K
+                                    children:
+                                      - id: '2021:208'
+                                        name: Text
+                                        type: TEXT
+                                        layout: layout_K79VSL
+                                        fills: color_1B1C19
+                                        text: Kale Curly Fresh
+                                        textStyle: style_GNQW4K
+                                  - id: '2021:209'
+                                    name: Container
+                                    type: FRAME
+                                    layout: layout_AL8NJB
+                                    children:
+                                      - id: '2021:210'
+                                        name: Text
+                                        type: TEXT
+                                        layout: layout_OFM9SB
+                                        fills: color_154212
+                                        text: Rp 18.500
+                                        textStyle: style_ENCSZS
+                              - id: '2021:211'
+                                name: Container
+                                type: FRAME
+                                layout: layout_3ER2NS
+                                children:
+                                  - id: '2021:212'
+                                    name: 250g per ikat
+                                    type: TEXT
+                                    layout: layout_RJJWEK
+                                    fills: color_42493E
+                                    text: 250g per ikat
+                                    textStyle: style_TB7KMY
+                              - id: '2021:213'
+                                name: Container
+                                type: FRAME
+                                layout: layout_LC20TI
+                                children:
+                                  - id: '2021:214'
+                                    name: Border
+                                    type: FRAME
+                                    layout: layout_0AVWF9
+                                    strokes: stroke_C2C9BB
+                                    strokeWeight: 1px
+                                    borderRadius: 9999px
+                                    children:
+                                      - id: '2021:215'
+                                        name: Button
+                                        type: FRAME
+                                        layout: layout_HAL0F6
+                                        children:
+                                          - id: '2021:216'
+                                            name: Icon
+                                            type: VECTOR
+                                            layout: layout_YDEJ2T
+                                            fills: color_154212
+                                      - id: '2021:217'
+                                        name: Container
+                                        type: FRAME
+                                        layout: layout_78S1NJ
+                                        children:
+                                          - id: '2021:218'
+                                            name: Text
+                                            type: TEXT
+                                            layout: layout_V2R636
+                                            fills: color_1B1C19
+                                            text: '1'
+                                            textStyle: style_J2ECUF
+                                      - id: '2021:219'
+                                        name: Button
+                                        type: FRAME
+                                        layout: layout_J8OSBI
+                                        children:
+                                          - id: '2021:220'
+                                            name: Icon
+                                            type: VECTOR
+                                            layout: layout_R9SA61
+                                            fills: color_154212
+                                  - id: '2021:221'
+                                    name: Button
+                                    type: FRAME
+                                    layout: layout_NQJVXX
+                                    children:
+                                      - id: '2021:222'
+                                        name: Text
+                                        type: TEXT
+                                        layout: layout_WA8701
+                                        fills: color_BA1A1A
+                                        text: Hapus
+                                        textStyle: style_HF5K0U
+              - id: '2021:223'
+                name: 'Section: Payment Methods'
+                type: FRAME
+                layout: layout_F2KEID
+                fills: color_FFFFFF
+                strokes: stroke_C2C9BB
+                strokeWeight: 1px
+                borderRadius: 12px
+                children:
+                  - id: '2021:224'
+                    name: Container
+                    type: FRAME
+                    layout: layout_I82HOB
+                    children:
+                      - id: '2021:225'
+                        name: Container
+                        type: FRAME
+                        layout: layout_C13UUZ
+                        children:
+                          - id: '2021:226'
+                            name: Icon
+                            type: VECTOR
+                            layout: layout_HPPON4
+                            fills: color_154212
+                      - id: '2021:227'
+                        name: Heading 2
+                        type: FRAME
+                        layout: layout_VVDN6T
+                        children:
+                          - id: '2021:228'
+                            name: Text
+                            type: TEXT
+                            layout: layout_PJYPV3
+                            fills: color_154212
+                            text: Metode Pembayaran
+                            textStyle: style_07820C
+                  - id: '2021:229'
+                    name: Container
+                    type: FRAME
+                    layout: layout_E8ITDF
+                    children:
+                      - id: '2021:230'
+                        name: Label - Groceria Pay (Highlighted)
+                        type: FRAME
+                        layout: layout_9TTD2K
+                        fills: color_2D5A27
+                        strokes: stroke_2D5A27
+                        strokeWeight: 2px
+                        borderRadius: 12px
+                        children:
+                          - id: '2021:231'
+                            name: Margin
+                            type: FRAME
+                            layout: layout_I3UDJN
+                            children:
+                              - id: '2021:232'
+                                name: Icon
+                                type: VECTOR
+                                layout: layout_B71L84
+                                fills: color_154212
+                          - id: '2021:233'
+                            name: Container
+                            type: FRAME
+                            layout: layout_S6XXI6
+                            children:
+                              - id: '2021:234'
+                                name: Container
+                                type: FRAME
+                                layout: layout_GPF66G
+                                children:
+                                  - id: '2021:235'
+                                    name: Container
+                                    type: FRAME
+                                    layout: layout_9CVFE6
+                                    children:
+                                      - id: '2021:236'
+                                        name: Text
+                                        type: TEXT
+                                        layout: layout_UOHWRT
+                                        fills: color_154212
+                                        text: Groceria Pay
+                                        textStyle: style_7SXEEW
+                                  - id: '2021:237'
+                                    name: Background
+                                    type: FRAME
+                                    layout: layout_D4ZNFD
+                                    fills: color_FFAD4A
+                                    borderRadius: 9999px
+                                    children:
+                                      - id: '2021:238'
+                                        name: Text
+                                        type: TEXT
+                                        layout: layout_ZDHRHT
+                                        fills: color_704200
+                                        text: PROMO
+                                        textStyle: style_OR4U8G
+                              - id: '2021:239'
+                                name: Container
+                                type: FRAME
+                                layout: layout_TT6NH3
+                                children:
+                                  - id: '2021:240'
+                                    name: 'Saldo: Rp 540.000'
+                                    type: TEXT
+                                    layout: layout_U3PS5N
+                                    fills: color_42493E
+                                    text: 'Saldo: Rp 540.000'
+                                    textStyle: style_8155F7
+                          - id: '2021:241'
+                            name: Margin
+                            type: FRAME
+                            layout: layout_QD72LF
+                            children:
+                              - id: '2021:242'
+                                name: Icon
+                                type: VECTOR
+                                layout: layout_2BY6MG
+                                fills: color_154212
+                      - id: '2021:243'
+                        name: Label - Credit Card
+                        type: FRAME
+                        layout: layout_172SFW
+                        strokes: stroke_C2C9BB
+                        strokeWeight: 1px
+                        borderRadius: 12px
+                        children:
+                          - id: '2021:244'
+                            name: Margin
+                            type: FRAME
+                            layout: layout_D9VHW1
+                            children:
+                              - id: '2021:245'
+                                name: Icon
+                                type: VECTOR
+                                layout: layout_BQGV4J
+                                fills: color_42493E
+                          - id: '2021:246'
+                            name: Container
+                            type: FRAME
+                            layout: layout_2SBP2Y
+                            children:
+                              - id: '2021:247'
+                                name: Text
+                                type: TEXT
+                                layout: layout_RGUZGP
+                                fills: color_1B1C19
+                                text: Kartu Kredit/Debit
+                                textStyle: style_P5SF51
+                              - id: '2021:248'
+                                name: Container
+                                type: FRAME
+                                layout: layout_QKCZ3I
+                                children:
+                                  - id: '2021:249'
+                                    name: Visa, Mastercard, JCB
+                                    type: TEXT
+                                    layout: layout_0W2GHQ
+                                    fills: color_42493E
+                                    text: Visa, Mastercard, JCB
+                                    textStyle: style_RFIHET
+                      - id: '2021:250'
+                        name: Label - Virtual Account
+                        type: FRAME
+                        layout: layout_M9BZ6X
+                        strokes: stroke_C2C9BB
+                        strokeWeight: 1px
+                        borderRadius: 12px
+                        children:
+                          - id: '2021:251'
+                            name: Margin
+                            type: FRAME
+                            layout: layout_2GX5ZQ
+                            children:
+                              - id: '2021:252'
+                                name: Icon
+                                type: VECTOR
+                                layout: layout_CT731Z
+                                fills: color_42493E
+                          - id: '2021:253'
+                            name: Container
+                            type: FRAME
+                            layout: layout_G2TSRL
+                            children:
+                              - id: '2021:254'
+                                name: Text
+                                type: TEXT
+                                layout: layout_GRR3CP
+                                fills: color_1B1C19
+                                text: Virtual Account
+                                textStyle: style_Q30WZL
+                              - id: '2021:255'
+                                name: Container
+                                type: FRAME
+                                layout: layout_4CRAFH
+                                children:
+                                  - id: '2021:256'
+                                    name: BCA, Mandiri, BNI
+                                    type: TEXT
+                                    layout: layout_DOK1HJ
+                                    fills: color_42493E
+                                    text: BCA, Mandiri, BNI
+                                    textStyle: style_9CA7KU
+                      - id: '2021:257'
+                        name: Label - E-Wallet
+                        type: FRAME
+                        layout: layout_9QWD3C
+                        strokes: stroke_C2C9BB
+                        strokeWeight: 1px
+                        borderRadius: 12px
+                        children:
+                          - id: '2021:258'
+                            name: Margin
+                            type: FRAME
+                            layout: layout_K7DP52
+                            children:
+                              - id: '2021:259'
+                                name: Icon
+                                type: VECTOR
+                                layout: layout_NC7O9D
+                                fills: color_42493E
+                          - id: '2021:260'
+                            name: Container
+                            type: FRAME
+                            layout: layout_9RS9JK
+                            children:
+                              - id: '2021:261'
+                                name: Text
+                                type: TEXT
+                                layout: layout_7QGE9D
+                                fills: color_1B1C19
+                                text: E-Wallet Lainnya
+                                textStyle: style_G78331
+                              - id: '2021:262'
+                                name: Container
+                                type: FRAME
+                                layout: layout_78224K
+                                children:
+                                  - id: '2021:263'
+                                    name: GoPay, OVO, ShopeePay
+                                    type: TEXT
+                                    layout: layout_JL863Q
+                                    fills: color_42493E
+                                    text: GoPay, OVO, ShopeePay
+                                    textStyle: style_6FJWGS
+          - id: '2021:264'
+            name: 'Right Column: Price Summary Sticky'
+            type: FRAME
+            layout: layout_2ZVFYD
+            children:
+              - id: '2021:265'
+                name: Container
+                type: FRAME
+                layout: layout_3NQW48
+                children:
+                  - id: '2021:266'
+                    name: Background
+                    type: FRAME
+                    layout: layout_T6JM9C
+                    fills: color_154212
+                    borderRadius: 12px
+                    children:
+                      - id: '2021:267'
+                        name: Overlay+Shadow
+                        type: RECTANGLE
+                        layout: layout_ZSMHH5
+                        fills: color_FFFFFF
+                        borderRadius: 12px
+                      - id: '2021:268'
+                        name: Heading 2
+                        type: FRAME
+                        layout: layout_4YC49Y
+                        children:
+                          - id: '2021:269'
+                            name: Ringkasan Belanja
+                            type: TEXT
+                            layout: layout_2YC7TL
+                            fills: color_FFFFFF
+                            text: Ringkasan Belanja
+                            textStyle: style_5P351M
+                      - id: '2021:270'
+                        name: Container
+                        type: FRAME
+                        layout: layout_UN7WQB
+                        children:
+                          - id: '2021:271'
+                            name: Container
+                            type: FRAME
+                            layout: layout_CIAGDW
+                            children:
+                              - id: '2021:272'
+                                name: Container
+                                type: FRAME
+                                layout: layout_HFWV39
+                                children:
+                                  - id: '2021:273'
+                                    name: Text
+                                    type: TEXT
+                                    layout: layout_GNO5DM
+                                    fills: color_FFFFFF
+                                    text: Total Harga (3 Barang)
+                                    textStyle: style_SPDCG5
+                              - id: '2021:274'
+                                name: Container
+                                type: FRAME
+                                layout: layout_4ISNBO
+                                children:
+                                  - id: '2021:275'
+                                    name: Text
+                                    type: TEXT
+                                    layout: layout_K3IHJK
+                                    fills: color_FFFFFF
+                                    text: Rp 108.500
+                                    textStyle: style_1CL1DQ
+                          - id: '2021:276'
+                            name: Container
+                            type: FRAME
+                            layout: layout_H6GB0S
+                            children:
+                              - id: '2021:277'
+                                name: Container
+                                type: FRAME
+                                layout: layout_H1XRBM
+                                children:
+                                  - id: '2021:278'
+                                    name: Text
+                                    type: TEXT
+                                    layout: layout_QWA0P8
+                                    fills: color_FFFFFF
+                                    text: Total Ongkos Kirim
+                                    textStyle: style_GXW43K
+                              - id: '2021:279'
+                                name: Container
+                                type: FRAME
+                                layout: layout_NPUZ9J
+                                children:
+                                  - id: '2021:280'
+                                    name: Text
+                                    type: TEXT
+                                    layout: layout_Y8ZCF9
+                                    fills: color_FFFFFF
+                                    text: Rp 15.000
+                                    textStyle: style_STXXWG
+                          - id: '2021:281'
+                            name: Container
+                            type: FRAME
+                            layout: layout_I6BJGB
+                            children:
+                              - id: '2021:282'
+                                name: Container
+                                type: FRAME
+                                layout: layout_C28RF4
+                                children:
+                                  - id: '2021:283'
+                                    name: Text
+                                    type: TEXT
+                                    layout: layout_JQ429P
+                                    fills: color_FFFFFF
+                                    text: Diskon Ongkir
+                                    textStyle: style_XA9VXE
+                              - id: '2021:284'
+                                name: Container
+                                type: FRAME
+                                layout: layout_SV2H77
+                                children:
+                                  - id: '2021:285'
+                                    name: Text
+                                    type: TEXT
+                                    layout: layout_83WVFD
+                                    fills: color_FFDDBB
+                                    text: '-Rp 15.000'
+                                    textStyle: style_398FOP
+                          - id: '2021:286'
+                            name: Container
+                            type: FRAME
+                            layout: layout_AAJ0FS
+                            children:
+                              - id: '2021:287'
+                                name: Container
+                                type: FRAME
+                                layout: layout_XSNM14
+                                children:
+                                  - id: '2021:288'
+                                    name: Text
+                                    type: TEXT
+                                    layout: layout_UK0IRY
+                                    fills: color_FFFFFF
+                                    text: Biaya Layanan
+                                    textStyle: style_41P7WZ
+                              - id: '2021:289'
+                                name: Container
+                                type: FRAME
+                                layout: layout_7RTG1V
+                                children:
+                                  - id: '2021:290'
+                                    name: Text
+                                    type: TEXT
+                                    layout: layout_WFYA6U
+                                    fills: color_FFFFFF
+                                    text: Rp 2.000
+                                    textStyle: style_97GVZ3
+                          - id: '2021:291'
+                            name: Separator
+                            type: FRAME
+                            layout: layout_0Z6Z37
+                            strokes: stroke_FFFFFF
+                          - id: '2021:292'
+                            name: Container
+                            type: FRAME
+                            layout: layout_HJ00VR
+                            children:
+                              - id: '2021:293'
+                                name: Container
+                                type: FRAME
+                                layout: layout_2H8QP8
+                                children:
+                                  - id: '2021:294'
+                                    name: Text
+                                    type: TEXT
+                                    layout: layout_0AQVLB
+                                    fills: color_FFFFFF
+                                    text: Total Bayar
+                                    textStyle: style_O4CDUY
+                              - id: '2021:295'
+                                name: Container
+                                type: FRAME
+                                layout: layout_KOD90D
+                                children:
+                                  - id: '2021:296'
+                                    name: Text
+                                    type: TEXT
+                                    layout: layout_0TEAX5
+                                    fills: color_FFFFFF
+                                    text: Rp 110.500
+                                    textStyle: style_2WKK9F
+                      - id: '2021:297'
+                        name: Promo Code Input
+                        type: FRAME
+                        layout: layout_9NG3OM
+                        children:
+                          - id: '2021:298'
+                            name: Input
+                            type: FRAME
+                            layout: layout_0QJ1OZ
+                            fills: color_FFFFFF
+                            strokes: stroke_FFFFFF
+                            strokeWeight: 1px
+                            borderRadius: 8px
+                            children:
+                              - id: '2021:299'
+                                name: Container
+                                type: FRAME
+                                layout: layout_471ZNL
+                                children:
+                                  - id: '2021:300'
+                                    name: Kode Promo
+                                    type: TEXT
+                                    layout: layout_2AFJUB
+                                    fills: color_FFFFFF
+                                    text: Kode Promo
+                                    textStyle: style_HQJ6LO
+                          - id: '2021:301'
+                            name: Button
+                            type: FRAME
+                            layout: layout_P3A01L
+                            fills: color_FFAD4A
+                            borderRadius: 8px
+                            children:
+                              - id: '2021:302'
+                                name: Text
+                                type: TEXT
+                                layout: layout_ALVSVS
+                                fills: color_704200
+                                text: Pakai
+                                textStyle: style_TDW5Y6
+                      - id: '2021:303'
+                        name: Button
+                        type: FRAME
+                        layout: layout_4AU88C
+                        fills: color_FFAD4A
+                        borderRadius: 9999px
+                        children:
+                          - id: '2021:304'
+                            name: Button:shadow
+                            type: RECTANGLE
+                            layout: layout_DU0DLX
+                            fills: color_FFFFFF
+                            borderRadius: 9999px
+                          - id: '2021:305'
+                            name: Container
+                            type: FRAME
+                            layout: layout_V8M1PQ
+                            children:
+                              - id: '2021:306'
+                                name: Text
+                                type: TEXT
+                                layout: layout_24OGLR
+                                fills: color_704200
+                                text: Bayar Sekarang
+                                textStyle: style_ROFQ7W
+                          - id: '2021:307'
+                            name: Container
+                            type: FRAME
+                            layout: layout_N8HB1R
+                            children:
+                              - id: '2021:308'
+                                name: Icon
+                                type: VECTOR
+                                layout: layout_9B7G9P
+                                fills: color_704200
+                      - id: '2021:309'
+                        name: Container
+                        type: FRAME
+                        layout: layout_8MQI4Q
+                        children:
+                          - id: '2021:310'
+                            name: Container
+                            type: FRAME
+                            layout: layout_SP1R2V
+                            children:
+                              - id: '2021:311'
+                                name: Icon
+                                type: VECTOR
+                                layout: layout_BIK6HP
+                                fills: color_FFFFFF
+                          - id: '2021:312'
+                            name: Text
+                            type: TEXT
+                            layout: layout_9YHQHD
+                            fills: color_FFFFFF
+                            text: Pembayaran Aman & Terenkripsi
+                            textStyle: style_TOCXOL
+                  - id: '2021:313'
+                    name: Delivery Notice
+                    type: FRAME
+                    layout: layout_7IYSFI
+                    fills: color_F5F3EE
+                    strokes: stroke_C2C9BB
+                    strokeWeight: 1px
+                    borderRadius: 12px
+                    children:
+                      - id: '2021:314'
+                        name: Container
+                        type: FRAME
+                        layout: layout_X21EG8
+                        children:
+                          - id: '2021:315'
+                            name: Container
+                            type: FRAME
+                            layout: layout_CV7JZU
+                            children:
+                              - id: '2021:316'
+                                name: Icon
+                                type: VECTOR
+                                layout: layout_8ARRRN
+                                fills: color_154212
+                          - id: '2021:317'
+                            name: Container
+                            type: FRAME
+                            layout: layout_W9A89V
+                            children:
+                              - id: '2021:318'
+                                name: Heading 4
+                                type: FRAME
+                                layout: layout_YLICHD
+                                children:
+                                  - id: '2021:319'
+                                    name: Text
+                                    type: TEXT
+                                    layout: layout_XALMH6
+                                    fills: color_1B1C19
+                                    text: Estimasi Kedatangan
+                                    textStyle: style_XVFU7O
+                              - id: '2021:320'
+                                name: Container
+                                type: FRAME
+                                layout: layout_5MK5QU
+                                children:
+                                  - id: '2021:321'
+                                    name: Text
+                                    type: TEXT
+                                    layout: layout_ASMCRN
+                                    fills: color_42493E
+                                    text: Hari ini, 14:00 - 15:00 WIB
+                                    textStyle: style_S4ETPB
+      - id: '2021:322'
+        name: Footer
+        type: FRAME
+        layout: layout_TLBVUU
+        fills: color_F0EEE9
+        children:
+          - id: '2021:323'
+            name: Container
+            type: FRAME
+            layout: layout_2PD0LA
+            children:
+              - id: '2021:324'
+                name: Container
+                type: FRAME
+                layout: layout_ANHZ0L
+                children:
+                  - id: '2021:325'
+                    name: Text
+                    type: TEXT
+                    layout: layout_RUW1XD
+                    fills: color_154212
+                    text: GROCERIA
+                    textStyle: style_ROJ3NV
+              - id: '2021:326'
+                name: Container
+                type: FRAME
+                layout: layout_62W7ZH
+                children:
+                  - id: '2021:327'
+                    name: Link
+                    type: FRAME
+                    layout: layout_DJDRO1
+                    children:
+                      - id: '2021:328'
+                        name: Text
+                        type: TEXT
+                        layout: layout_T9P42N
+                        fills: color_42493E
+                        text: Privacy Policy
+                        textStyle: style_GZQQ4L
+                  - id: '2021:329'
+                    name: Link
+                    type: FRAME
+                    layout: layout_FFK8UQ
+                    children:
+                      - id: '2021:330'
+                        name: Text
+                        type: TEXT
+                        layout: layout_R176IG
+                        fills: color_42493E
+                        text: Terms of Service
+                        textStyle: style_Y9FPBD
+                  - id: '2021:331'
+                    name: Link
+                    type: FRAME
+                    layout: layout_PDMWRP
+                    children:
+                      - id: '2021:332'
+                        name: Text
+                        type: TEXT
+                        layout: layout_FVQN6I
+                        fills: color_42493E
+                        text: Help Center
+                        textStyle: style_RBSDRU
+                  - id: '2021:333'
+                    name: Link
+                    type: FRAME
+                    layout: layout_LXVUFW
+                    children:
+                      - id: '2021:334'
+                        name: Text
+                        type: TEXT
+                        layout: layout_MI2J5Q
+                        fills: color_42493E
+                        text: Contact Us
+                        textStyle: style_I8NCVN
+              - id: '2021:335'
+                name: Container
+                type: FRAME
+                layout: layout_VG2R2R
+                children:
+                  - id: '2021:336'
+                    name: Text
+                    type: TEXT
+                    layout: layout_UABTDN
+                    fills: color_42493E
+                    text: © 2024 GROCERIA. Freshness delivered daily.
+                    textStyle: style_GN30T3
+globalVars:
+  styles:
+    layout_V8LQBC:
+      mode: column
+      gap: 48px
+      padding: 0px 0px 22.469999313354492px 0px
+      sizing:
+        horizontal: fixed
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: center
+      alignSelf: stretch
+      dimensions:
+        width: 1280
+      locationRelativeToParent:
+        x: 7077
+        'y': 6061
+    color_FFFFFF:
+      - '#FFFFFF'
+    layout_V5CY1X:
+      mode: column
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+    color_FBF9F4:
+      - '#FBF9F4'
+    layout_E8EFMR:
+      mode: row
+      gap: 269px
+      padding: 16px 48px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: space-between
+      alignItems: center
+      alignSelf: stretch
+    layout_K2H7AK:
+      mode: none
+      sizing:
+        horizontal: fixed
+        vertical: fixed
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      dimensions:
+        width: 162
+        height: 42
+      locationRelativeToParent:
+        x: 48
+        'y': 16
+    layout_338UVV:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+      locationRelativeToParent:
+        x: 0
+        'y': -1
+    color_154212:
+      - '#154212'
+    style_JGP8BW:
+      fontFamily: Manrope
+      fontWeight: 700
+      fontSize: 32
+      lineHeight: 1.30em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_GRRS24:
+      mode: row
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: center
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 483
+        'y': 20
+    layout_HEZ9GR:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+    layout_4PINHP:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    color_42493E:
+      - '#42493E'
+    style_90OQ0H:
+      fontFamily: Manrope
+      fontWeight: 700
+      fontSize: 24
+      lineHeight: 1.40em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_CINILF:
+      mode: column
+      padding: 0px 0px 0px 32px
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 60
+        'y': 0
+    layout_MLTNK9:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+      locationRelativeToParent:
+        x: 32
+        'y': 0
+    style_WEFY06:
+      fontFamily: Manrope
+      fontWeight: 700
+      fontSize: 24
+      lineHeight: 1.40em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_AKY7TX:
+      mode: column
+      padding: 0px 0px 0px 32px
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 188
+        'y': 0
+    layout_X8P3QB:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+      locationRelativeToParent:
+        x: 32
+        'y': 0
+    style_0AZ8G9:
+      fontFamily: Manrope
+      fontWeight: 700
+      fontSize: 24
+      lineHeight: 1.40em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_IHLO01:
+      mode: column
+      padding: 0px 0px 0px 32px
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 299
+        'y': 0
+    layout_69AHUX:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+      locationRelativeToParent:
+        x: 32
+        'y': 0
+    style_TY8PG4:
+      fontFamily: Manrope
+      fontWeight: 700
+      fontSize: 24
+      lineHeight: 1.40em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_OSO1AY:
+      mode: row
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: center
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 1144
+        'y': 19
+    layout_EV2Y79:
+      mode: column
+      padding: 8px
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: center
+      alignItems: center
+      alignSelf: stretch
+    layout_ID5LPS:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+      locationRelativeToParent:
+        x: 8
+        'y': 8
+    layout_LJ3Q5B:
+      mode: column
+      padding: 0px 0px 0px 16px
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 36
+        'y': 0
+    layout_L6ZOCC:
+      mode: column
+      padding: 8px
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: center
+      alignItems: center
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 16
+        'y': 0
+    layout_96FWEF:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+      locationRelativeToParent:
+        x: 8
+        'y': 8
+    layout_TYYF66:
+      mode: none
+      padding: 0px 0px 48.0099983215332px 0px
+      sizing:
+        horizontal: fixed
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      dimensions:
+        width: 1184
+      locationRelativeToParent:
+        x: 48
+        'y': 122
+    layout_R5WOAT:
+      mode: column
+      gap: 24px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+    layout_XPMY6N:
+      mode: column
+      gap: 12.010000228881836px
+      padding: 24px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+    stroke_C2C9BB:
+      - '#C2C9BB'
+    layout_C7YBHA:
+      mode: row
+      gap: 397.4100036621094px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: space-between
+      alignItems: center
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 25
+        'y': 25
+    layout_FD6FZW:
+      mode: row
+      gap: 8px
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: center
+      alignSelf: stretch
+    layout_30JKQF:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 0
+        'y': 7
+    layout_BKPJAB:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    layout_SIZONS:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 24
+        'y': 0
+    layout_VO2SU4:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_1BWJXO:
+      fontFamily: Manrope
+      fontWeight: 700
+      fontSize: 24
+      lineHeight: 1.40em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_BW0ABW:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: center
+      alignItems: center
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 649
+        'y': 11
+    layout_YIVN84:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_KBU331:
+      fontFamily: Work Sans
+      fontWeight: 600
+      fontSize: 12
+      lineHeight: 1.00em
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    layout_W4BEYU:
+      mode: column
+      padding: 16px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 25
+        'y': 71
+    color_F5F3EE:
+      - '#F5F3EE'
+    stroke_154212:
+      - '#154212'
+    layout_TJXQQ3:
+      mode: row
+      gap: 204.27999877929688px
+      padding: 0px 1.1368683772161603e-13px 0px 0px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: space-between
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 20
+        'y': 16
+    layout_TCU6CE:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: fill
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+    layout_8KVFYO:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    color_1B1C19:
+      - '#1B1C19'
+    style_9KFJHI:
+      fontFamily: Work Sans
+      fontWeight: 600
+      fontSize: 16
+      lineHeight: 1.60em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_28GBRP:
+      mode: column
+      padding: 4.090000152587891px 0px 0px 0px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 0
+        'y': 26
+    layout_UICF29:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+      locationRelativeToParent:
+        x: 0
+        'y': 4
+    style_0M7XPP:
+      fontFamily: Work Sans
+      fontWeight: 400
+      fontSize: 16
+      lineHeight: 1.60em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_5JK6OS:
+      mode: column
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 0
+        'y': 56
+    layout_K0R92N:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_NXZOUX:
+      fontFamily: Work Sans
+      fontWeight: 400
+      fontSize: 14
+      lineHeight: 1.43em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_GIHXTF:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: fill
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 675
+        'y': 0
+    layout_HG5I7G:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    layout_TA33C2:
+      mode: column
+      gap: 12px
+      padding: 24px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 0
+        'y': 228
+    layout_JT6YGY:
+      mode: row
+      gap: 8px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: center
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 25
+        'y': 25
+    layout_ZE6U6N:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 0
+        'y': 8
+    layout_BCF88L:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    layout_IW3SJ7:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 30
+        'y': 0
+    layout_DPLBJT:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_8ISCQX:
+      fontFamily: Manrope
+      fontWeight: 700
+      fontSize: 24
+      lineHeight: 1.40em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_DPGNI0:
+      mode: column
+      gap: 16px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 25
+        'y': 71
+    layout_NCV73D:
+      mode: row
+      gap: 16px
+      padding: 0px 0px 16px 0px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+    layout_G9080V:
+      mode: none
+      sizing:
+        horizontal: fixed
+        vertical: fixed
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      dimensions:
+        width: 80
+        height: 80
+    color_F0EEE9:
+      - '#F0EEE9'
+    layout_899N8R:
+      mode: column
+      sizing:
+        horizontal: fill
+        vertical: fill
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 96
+        'y': 0
+    layout_JZQJU1:
+      mode: row
+      gap: 357.0199890136719px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: space-between
+      alignItems: flex-start
+      alignSelf: stretch
+    layout_6A7QHV:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: fill
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+    layout_KNRXEI:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_OX807Y:
+      fontFamily: Work Sans
+      fontWeight: 600
+      fontSize: 16
+      lineHeight: 1.60em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_WZGAJC:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: fill
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 555
+        'y': 0
+    layout_O2SMFO:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_Q925AD:
+      fontFamily: Work Sans
+      fontWeight: 600
+      fontSize: 16
+      lineHeight: 1.60em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_PYBLJ1:
+      mode: column
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 0
+        'y': 26
+    layout_5JIVSZ:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_DZJ29R:
+      fontFamily: Work Sans
+      fontWeight: 400
+      fontSize: 14
+      lineHeight: 1.43em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_006GBF:
+      mode: row
+      gap: 16px
+      padding: 8px 0px 0px 0px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: center
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 0
+        'y': 46
+    layout_WIF38O:
+      mode: row
+      gap: 12px
+      padding: 4px 8px
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: center
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 0
+        'y': 8
+    layout_O4SVBD:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: center
+      alignItems: center
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 9
+        'y': 14
+    layout_WCTA3F:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    layout_YH28RF:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 29
+        'y': 5
+    layout_WY12LO:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_1KECSX:
+      fontFamily: Work Sans
+      fontWeight: 600
+      fontSize: 14
+      lineHeight: 1.43em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_B4SI3M:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: center
+      alignItems: center
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 49
+        'y': 11
+    layout_HSAACK:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    layout_IPE8E4:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: center
+      alignItems: center
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 83
+        'y': 13
+    layout_8ZQMUT:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    color_BA1A1A:
+      - '#BA1A1A'
+    style_W0L76H:
+      fontFamily: Work Sans
+      fontWeight: 600
+      fontSize: 14
+      lineHeight: 1.43em
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    layout_6L36NU:
+      mode: row
+      gap: 16px
+      padding: 0px 0px 16px 0px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 0
+        'y': 117
+    layout_WRYTXP:
+      mode: none
+      sizing:
+        horizontal: fixed
+        vertical: fixed
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      dimensions:
+        width: 80
+        height: 80
+    layout_8TTR1W:
+      mode: column
+      sizing:
+        horizontal: fill
+        vertical: fill
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 96
+        'y': 0
+    layout_XRFW2P:
+      mode: row
+      gap: 430.5299987792969px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: space-between
+      alignItems: flex-start
+      alignSelf: stretch
+    layout_S65H4K:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: fill
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+    layout_K79VSL:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_GNQW4K:
+      fontFamily: Work Sans
+      fontWeight: 600
+      fontSize: 16
+      lineHeight: 1.60em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_AL8NJB:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: fill
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 559
+        'y': 0
+    layout_OFM9SB:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_ENCSZS:
+      fontFamily: Work Sans
+      fontWeight: 600
+      fontSize: 16
+      lineHeight: 1.60em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_3ER2NS:
+      mode: column
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 0
+        'y': 26
+    layout_RJJWEK:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_TB7KMY:
+      fontFamily: Work Sans
+      fontWeight: 400
+      fontSize: 14
+      lineHeight: 1.43em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_LC20TI:
+      mode: row
+      gap: 16px
+      padding: 8px 0px 0px 0px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: center
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 0
+        'y': 46
+    layout_0AVWF9:
+      mode: row
+      gap: 12px
+      padding: 4px 8px
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: center
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 0
+        'y': 8
+    layout_HAL0F6:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: center
+      alignItems: center
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 9
+        'y': 14
+    layout_YDEJ2T:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    layout_78S1NJ:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 29
+        'y': 5
+    layout_V2R636:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_J2ECUF:
+      fontFamily: Work Sans
+      fontWeight: 600
+      fontSize: 14
+      lineHeight: 1.43em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_J8OSBI:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: center
+      alignItems: center
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 47
+        'y': 11
+    layout_R9SA61:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    layout_NQJVXX:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: center
+      alignItems: center
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 80
+        'y': 13
+    layout_WA8701:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_HF5K0U:
+      fontFamily: Work Sans
+      fontWeight: 600
+      fontSize: 14
+      lineHeight: 1.43em
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    layout_F2KEID:
+      mode: column
+      gap: 12px
+      padding: 24px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 0
+        'y': 566
+    layout_I82HOB:
+      mode: row
+      gap: 8px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: center
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 25
+        'y': 25
+    layout_C13UUZ:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 0
+        'y': 9
+    layout_HPPON4:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    layout_VVDN6T:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 30
+        'y': 0
+    layout_PJYPV3:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_07820C:
+      fontFamily: Manrope
+      fontWeight: 700
+      fontSize: 24
+      lineHeight: 1.40em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_E8ITDF:
+      mode: none
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 25
+        'y': 71
+    layout_9TTD2K:
+      mode: row
+      padding: 16px
+      sizing:
+        horizontal: fill
+        vertical: fixed
+      justifyContent: flex-start
+      alignItems: center
+      alignSelf: stretch
+      dimensions:
+        height: 78
+    color_2D5A27:
+      - '#2D5A27'
+    stroke_2D5A27:
+      - '#2D5A27'
+    layout_I3UDJN:
+      mode: column
+      padding: 0px 12px 0px 0px
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 18
+        'y': 30
+    layout_B71L84:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    layout_S6XXI6:
+      mode: column
+      gap: 3.197442310920451e-14px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 49
+        'y': 18
+    layout_GPF66G:
+      mode: row
+      gap: 94.38999938964844px
+      padding: 0px 0.009999999776482582px 0px 0px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: space-between
+      alignItems: center
+      alignSelf: stretch
+    layout_9CVFE6:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+    layout_UOHWRT:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_7SXEEW:
+      fontFamily: Work Sans
+      fontWeight: 600
+      fontSize: 16
+      lineHeight: 1.60em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_D4ZNFD:
+      mode: column
+      padding: 2px 8px
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 202
+        'y': 3
+    color_FFAD4A:
+      - '#FFAD4A'
+    layout_ZDHRHT:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+      locationRelativeToParent:
+        x: 8
+        'y': 2
+    color_704200:
+      - '#704200'
+    style_OR4U8G:
+      fontFamily: Work Sans
+      fontWeight: 600
+      fontSize: 12
+      lineHeight: 1.33em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_TT6NH3:
+      mode: column
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 0
+        'y': 26
+    layout_U3PS5N:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_8155F7:
+      fontFamily: Work Sans
+      fontWeight: 400
+      fontSize: 12
+      lineHeight: 1.33em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_QD72LF:
+      mode: column
+      padding: 0px 0px 0px 8px
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 312
+        'y': 29
+    layout_2BY6MG:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+      locationRelativeToParent:
+        x: 8
+        'y': 0
+    layout_172SFW:
+      mode: row
+      padding: 16px
+      sizing:
+        horizontal: fill
+        vertical: fixed
+      justifyContent: flex-start
+      alignItems: center
+      alignSelf: stretch
+      dimensions:
+        height: 78
+      locationRelativeToParent:
+        x: 374
+        'y': 0
+    layout_D9VHW1:
+      mode: column
+      padding: 0px 12px 0px 0px
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 17
+        'y': 31
+    layout_BQGV4J:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    layout_2SBP2Y:
+      mode: column
+      gap: 0.09000000357627869px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 49
+        'y': 18
+    layout_RGUZGP:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_P5SF51:
+      fontFamily: Work Sans
+      fontWeight: 600
+      fontSize: 16
+      lineHeight: 1.60em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_QKCZ3I:
+      mode: column
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 0
+        'y': 26
+    layout_0W2GHQ:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_RFIHET:
+      fontFamily: Work Sans
+      fontWeight: 400
+      fontSize: 12
+      lineHeight: 1.33em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_M9BZ6X:
+      mode: row
+      padding: 16px
+      sizing:
+        horizontal: fill
+        vertical: fixed
+      justifyContent: flex-start
+      alignItems: center
+      alignSelf: stretch
+      dimensions:
+        height: 76
+      locationRelativeToParent:
+        x: 0
+        'y': 94
+    layout_2GX5ZQ:
+      mode: column
+      padding: 0px 12px 0px 0px
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 17
+        'y': 28
+    layout_CT731Z:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    layout_G2TSRL:
+      mode: column
+      gap: 0.10000000149011612px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 49
+        'y': 17
+    layout_GRR3CP:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_Q30WZL:
+      fontFamily: Work Sans
+      fontWeight: 600
+      fontSize: 16
+      lineHeight: 1.60em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_4CRAFH:
+      mode: column
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 0
+        'y': 26
+    layout_DOK1HJ:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_9CA7KU:
+      fontFamily: Work Sans
+      fontWeight: 400
+      fontSize: 12
+      lineHeight: 1.33em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_9QWD3C:
+      mode: row
+      padding: 16px
+      sizing:
+        horizontal: fill
+        vertical: fixed
+      justifyContent: flex-start
+      alignItems: center
+      alignSelf: stretch
+      dimensions:
+        height: 76
+      locationRelativeToParent:
+        x: 374
+        'y': 94
+    layout_K7DP52:
+      mode: column
+      padding: 0px 12px 0px 0px
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 17
+        'y': 30
+    layout_NC7O9D:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    layout_9RS9JK:
+      mode: column
+      gap: 0.10000000149011612px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 49
+        'y': 17
+    layout_7QGE9D:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_G78331:
+      fontFamily: Work Sans
+      fontWeight: 600
+      fontSize: 16
+      lineHeight: 1.60em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_78224K:
+      mode: column
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 0
+        'y': 26
+    layout_JL863Q:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_6FJWGS:
+      fontFamily: Work Sans
+      fontWeight: 400
+      fontSize: 12
+      lineHeight: 1.33em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_2ZVFYD:
+      mode: column
+      padding: 0px 0px 273.7799987792969px 0px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 805
+        'y': 0
+    layout_3NQW48:
+      mode: column
+      gap: 24.010000228881836px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+    layout_T6JM9C:
+      mode: column
+      gap: 12px
+      padding: 24px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+    layout_ZSMHH5:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    layout_4YC49Y:
+      mode: column
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 24
+        'y': 24
+    layout_2YC7TL:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_5P351M:
+      fontFamily: Manrope
+      fontWeight: 700
+      fontSize: 24
+      lineHeight: 1.40em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_UN7WQB:
+      mode: column
+      gap: 12px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 24
+        'y': 70
+    layout_CIAGDW:
+      mode: row
+      gap: 74.12000274658203px
+      padding: 0px 0.009999999776482582px 0px 0px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: space-between
+      alignItems: flex-start
+      alignSelf: stretch
+    layout_HFWV39:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: fill
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+    layout_GNO5DM:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_SPDCG5:
+      fontFamily: Work Sans
+      fontWeight: 400
+      fontSize: 16
+      lineHeight: 1.60em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_4ISNBO:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: fill
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 245
+        'y': 0
+    layout_K3IHJK:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_1CL1DQ:
+      fontFamily: Work Sans
+      fontWeight: 400
+      fontSize: 16
+      lineHeight: 1.60em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_H6GB0S:
+      mode: row
+      gap: 109.36000061035156px
+      padding: 0px 5.6843418860808015e-14px 0px 0px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: space-between
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 0
+        'y': 38
+    layout_H1XRBM:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: fill
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+    layout_QWA0P8:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_GXW43K:
+      fontFamily: Work Sans
+      fontWeight: 400
+      fontSize: 16
+      lineHeight: 1.60em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_NPUZ9J:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: fill
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 256
+        'y': 0
+    layout_Y8ZCF9:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_STXXWG:
+      fontFamily: Work Sans
+      fontWeight: 400
+      fontSize: 16
+      lineHeight: 1.60em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_I6BJGB:
+      mode: row
+      gap: 139.4199981689453px
+      padding: 0px 0.009999999776482582px 0px 0px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: space-between
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 0
+        'y': 76
+    layout_C28RF4:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: fill
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+    layout_JQ429P:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_XA9VXE:
+      fontFamily: Work Sans
+      fontWeight: 400
+      fontSize: 16
+      lineHeight: 1.60em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_SV2H77:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: fill
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 247
+        'y': 0
+    layout_83WVFD:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    color_FFDDBB:
+      - '#FFDDBB'
+    style_398FOP:
+      fontFamily: Work Sans
+      fontWeight: 400
+      fontSize: 16
+      lineHeight: 1.60em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_AAJ0FS:
+      mode: row
+      gap: 151.9199981689453px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: space-between
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 0
+        'y': 114
+    layout_XSNM14:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: fill
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+    layout_UK0IRY:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_41P7WZ:
+      fontFamily: Work Sans
+      fontWeight: 400
+      fontSize: 16
+      lineHeight: 1.60em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_7RTG1V:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: fill
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 262
+        'y': 0
+    layout_WFYA6U:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_97GVZ3:
+      fontFamily: Work Sans
+      fontWeight: 400
+      fontSize: 16
+      lineHeight: 1.60em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_0Z6Z37:
+      mode: none
+      sizing:
+        horizontal: fill
+        vertical: fixed
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      dimensions:
+        height: 1
+      locationRelativeToParent:
+        x: 0
+        'y': 152
+    stroke_FFFFFF:
+      - '#FFFFFF'
+    layout_HJ00VR:
+      mode: row
+      gap: 138.50999450683594px
+      padding: 0px 0.009999999776482582px 0px 0px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: space-between
+      alignItems: center
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 0
+        'y': 165
+    layout_2H8QP8:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+    layout_0AQVLB:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_O4CDUY:
+      fontFamily: Work Sans
+      fontWeight: 600
+      fontSize: 18
+      lineHeight: 1.56em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_KOD90D:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 237
+        'y': 0
+    layout_0TEAX5:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_2WKK9F:
+      fontFamily: Work Sans
+      fontWeight: 600
+      fontSize: 18
+      lineHeight: 1.56em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_9NG3OM:
+      mode: row
+      gap: 8px
+      padding: 11.989999771118164px 0px 12px 0px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 24
+        'y': 275
+    layout_0QJ1OZ:
+      mode: column
+      padding: 10px 16px
+      sizing:
+        horizontal: fill
+        vertical: fill
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 0
+        'y': 12
+    layout_471ZNL:
+      mode: column
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 17
+        'y': 11
+    layout_2AFJUB:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_HQJ6LO:
+      fontFamily: Work Sans
+      fontWeight: 400
+      fontSize: 14
+      lineHeight: 1.5em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_P3A01L:
+      mode: column
+      padding: 9px 16px
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: center
+      alignItems: center
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 261
+        'y': 12
+    layout_ALVSVS:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+      locationRelativeToParent:
+        x: 16
+        'y': 9
+    style_TDW5Y6:
+      fontFamily: Work Sans
+      fontWeight: 600
+      fontSize: 14
+      lineHeight: 1.43em
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    layout_4AU88C:
+      mode: row
+      gap: 8.010000228881836px
+      padding: 16px 0px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: center
+      alignItems: center
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 24
+        'y': 349
+    layout_DU0DLX:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    layout_V8M1PQ:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: center
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 97
+        'y': 16
+    layout_24OGLR:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_ROFQ7W:
+      fontFamily: Work Sans
+      fontWeight: 600
+      fontSize: 16
+      lineHeight: 1.60em
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    layout_N8HB1R:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: center
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 226
+        'y': 23
+    layout_9B7G9P:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    layout_8MQI4Q:
+      mode: row
+      gap: 3.990000009536743px
+      padding: 4.010000228881836px 0px 0px 0px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: center
+      alignItems: center
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 24
+        'y': 419
+    layout_SP1R2V:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: center
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 65
+        'y': 6
+    layout_BIK6HP:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    layout_9YHQHD:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+      locationRelativeToParent:
+        x: 78
+        'y': 4
+    style_TOCXOL:
+      fontFamily: Work Sans
+      fontWeight: 400
+      fontSize: 12
+      lineHeight: 1.33em
+      textAlignHorizontal: CENTER
+      textAlignVertical: CENTER
+    layout_7IYSFI:
+      mode: column
+      padding: 16px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 0
+        'y': 487
+    layout_X21EG8:
+      mode: row
+      gap: 11.989999771118164px
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 17
+        'y': 17
+    layout_CV7JZU:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: fill
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+    layout_8ARRRN:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    layout_W9A89V:
+      mode: column
+      sizing:
+        horizontal: hug
+        vertical: fill
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+      locationRelativeToParent:
+        x: 34
+        'y': 0
+    layout_YLICHD:
+      mode: column
+      sizing:
+        horizontal: fill
+        vertical: hug
+      justifyContent: flex-start
+      alignItems: flex-start
+      alignSelf: stretch
+    layout_XALMH6:
+      mode: none
+      sizing:
+        horizontal: hug
+        vertical: hug
+    style_XVFU7O:
+      fontFamily: Work Sans
+      fontWeight: 600
+      fontSize: 14
+      lineHeight: 1.43em
+      textAlignHorizontal: LEFT
+      textAlignVertical: CENTER
+    layout_5MK5QU:
+ 
