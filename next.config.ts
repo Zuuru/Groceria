@@ -20,6 +20,7 @@ const nextConfig: NextConfig = {
   },
   allowedDevOrigins: [
     "https://*.ngrok-free.app",
+    "https://*.ngrok-free.dev",
     "https://*.ngrok.io",
   ],
 };
