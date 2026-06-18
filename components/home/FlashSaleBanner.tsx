@@ -42,7 +42,7 @@ export function FlashSaleBanner() {
         <div className="relative w-full h-full">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="https://images.unsplash.com/photo-1610970881699-44a5587caaec?w=800&auto=format&fit=crop&q=80"
+            src="/assets/veggie-splash.png"
             alt="Veggie Splash"
             className="w-full h-full object-cover"
           />
