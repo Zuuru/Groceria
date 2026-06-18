@@ -9,6 +9,7 @@ import { StoreProducts } from '@/components/home/StoreProducts'
 import { HighRatedStores } from '@/components/home/HighRatedStores'
 import { PerspectiveCarousel } from '@/components/home/PerspectiveCarousel'
 import { ScrollReveal } from '@/components/common/ScrollReveal'
+import { FlashSaleBanner } from '@/components/home/FlashSaleBanner'
 
 export const revalidate = 0 // Disable cache for database fresh retrieval
 
@@ -293,62 +294,7 @@ export default async function Home() {
       <section className="bg-white py-16 sm:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <ScrollReveal variant="scale-up" duration={900}>
-            <div className="relative bg-[#113E21] rounded-[40px] overflow-hidden text-white min-h-[360px] flex flex-col justify-center p-8 sm:p-16">
-              {/* Split layout/Background visual */}
-              <div className="absolute right-0 top-0 bottom-0 w-full md:w-1/2 opacity-20 md:opacity-90">
-                <div className="relative w-full h-full">
-                  <Image
-                    src="https://images.unsplash.com/photo-1610970881699-44a5587caaec?w=800&auto=format&fit=crop&q=80"
-                    alt="Veggie Splash"
-                    fill
-                    className="object-cover"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-r from-[#113E21] via-[#113E21]/60 to-transparent"></div>
-                </div>
-              </div>
-
-              {/* Left Content Column */}
-              <div className="relative z-10 max-w-xl space-y-6">
-                <span className="bg-[#f4b844] text-[#113E21] font-bold text-xs uppercase px-3 py-1 rounded-full w-fit">
-                  LIMITED OFFER
-                </span>
-                <h2 className="text-4xl sm:text-5xl font-black uppercase leading-tight">
-                  FLASH SALE UP TO <br />
-                  <span className="text-[#f4b844]">70% OFF</span>
-                </h2>
-                <p className="text-sm text-gray-300 leading-relaxed font-medium">
-                  Stock up on your organic favorites this weekend only. Freshness delivered, savings guaranteed.
-                </p>
-
-                {/* Action Button & Timer */}
-                <div className="flex flex-wrap items-center gap-6 pt-2">
-                  <Link
-                    href="#products"
-                    className="bg-white hover:bg-gray-100 text-[#113E21] font-bold px-8 py-3 rounded-full text-sm transition-all duration-300"
-                  >
-                    Shop the Sale
-                  </Link>
-
-                  {/* Counter */}
-                  <div className="flex gap-4 text-center">
-                    <div className="flex flex-col">
-                      <span className="text-2xl sm:text-3xl font-black text-[#f4b844]">12</span>
-                      <span className="text-[10px] text-gray-400 font-bold uppercase tracking-wider">Hrs</span>
-                    </div>
-                    <span className="text-2xl sm:text-3xl font-black text-white/50">:</span>
-                    <div className="flex flex-col">
-                      <span className="text-2xl sm:text-3xl font-black text-[#f4b844]">48</span>
-                      <span className="text-[10px] text-gray-400 font-bold uppercase tracking-wider">Min</span>
-                    </div>
-                    <span className="text-2xl sm:text-3xl font-black text-white/50">:</span>
-                    <div className="flex flex-col">
-                      <span className="text-2xl sm:text-3xl font-black text-[#f4b844]">08</span>
-                      <span className="text-[10px] text-gray-400 font-bold uppercase tracking-wider">Sec</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <FlashSaleBanner />
           </ScrollReveal>
         </div>
       </section>
